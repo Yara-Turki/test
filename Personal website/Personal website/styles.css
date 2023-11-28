@@ -1,0 +1,135 @@
+/* Importing external fonts and normalizing styles */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+/* Global styles */
+* {
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #EEF5FF;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-image: url("https://i.pinimg.com/originals/67/33/42/673342de5ad77c071270a2243cae2c46.gif");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 900px;
+}
+
+/* Heading styles */
+h1, h6 {
+    color: #860A35;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 80px;
+    line-height: 1.2;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #2980b9;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    margin: 40px 20px;
+    /*display: flex;*/
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+#title\ skills {
+    background-image: url("https://i.pinimg.com/originals/b6/e2/08/b6e2089749c711d9509da32fa73ea10d.gif");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 80px;
+    color: #000000;
+
+}
+
+
+
+#SkillsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SoftSkills, #TechnicalSkills {
+    margin: 20px; /* Adjust margin for spacing between sections */
+    padding: 20px; /* Add padding for internal spacing within each section */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    max-width: 300px; /* Set a maximum width for each section */
+}
+
+#TechnicalSkills {
+    margin-left: 40px; /* Increase left margin for additional spacing */
+}
+
+
+
+
+/* Text styles */
+h2, h3 {
+    color: #557C55;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p, li {
+    color: #363062;
+    line-height: 1.6;
+}
+footer {
+    margin: 20px;
+}
+
+.About-me{
+    margin: 40px auto;
+}

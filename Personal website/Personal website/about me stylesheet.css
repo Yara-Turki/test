@@ -1,0 +1,100 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #EEE2DE;
+    color: #333;
+}
+
+header {
+    background-image: url("https://i.pinimg.com/originals/ea/32/71/ea32712c9869d5fbfb3b72f1618db8e6.gif");
+    background-position: center;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: #872341;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.content-container {
+    display: flex;
+}
+
+nav {
+    background-color: #333;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+#content h1, h2, h3, h4 {
+    text-align: center;
+    padding: 20px;  
+}
+#content {
+    margin-left: 220px;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+.cta-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+footer {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+footer a {
+    color: #557C55;git init
+
+}
+
